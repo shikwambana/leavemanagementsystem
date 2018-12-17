@@ -1,0 +1,171 @@
+{
+    "612ee53c-d6b7-0ef7-4743-4102b97d9d63": {
+        "dataModelId": "612ee53c-d6b7-0ef7-4743-4102b97d9d63",
+        "name": "user",
+        "description": "DM for mapping user values from form",
+        "dataSource": "lms-rt",
+        "fields": [
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "password",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "remember",
+                "fieldType": 4,
+                "isArray": false
+            }
+        ]
+    },
+    "d5d4a07a-c291-dc08-e334-2e38d69da82f": {
+        "dataModelId": "d5d4a07a-c291-dc08-e334-2e38d69da82f",
+        "name": "employee",
+        "description": "employee information",
+        "dataSource": "neutrinos-delivery-rt",
+        "fields": [
+            {
+                "name": "staff",
+                "fieldType": 5,
+                "isArray": false,
+                "complexTypeName": "staff",
+                "complexTypeId": "6d6a7773-0923-966e-9325-95ce48330f54"
+            },
+            {
+                "name": "leaves",
+                "fieldType": 5,
+                "isArray": false,
+                "complexTypeName": "leaves",
+                "complexTypeId": "34ceaabd-539a-ba73-076e-50370b31f874"
+            }
+        ]
+    },
+    "6d6a7773-0923-966e-9325-95ce48330f54": {
+        "dataModelId": "6d6a7773-0923-966e-9325-95ce48330f54",
+        "name": "staff",
+        "description": "Basic information to be captured as a staff of an organisation",
+        "dataSource": "neutrinos-delivery-rt",
+        "fields": [
+            {
+                "name": "groupList",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "firstName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "lastName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "employeeID",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "displayName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "department",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "managerName",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    },
+    "34ceaabd-539a-ba73-076e-50370b31f874": {
+        "dataModelId": "34ceaabd-539a-ba73-076e-50370b31f874",
+        "name": "leaves",
+        "description": "Leaves information of an employee",
+        "dataSource": "neutrinos-delivery-rt",
+        "fields": [
+            {
+                "name": "annualLeaves",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "sickLeaves",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "approvedLeaves",
+                "fieldType": 1,
+                "isArray": false
+            }
+        ]
+    },
+    "3fedbcd2-d8eb-4286-3147-0bc0ff640576": {
+        "dataModelId": "3fedbcd2-d8eb-4286-3147-0bc0ff640576",
+        "name": "leaverequest",
+        "description": "To be used when requesting for leaves as a mapping between an Employee and the Manager",
+        "dataSource": "neutrinos-delivery-rt",
+        "fields": [
+            {
+                "name": "leaveType",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "fromDate",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "toDate",
+                "fieldType": 3,
+                "isArray": false
+            },
+            {
+                "name": "duration",
+                "fieldType": 1,
+                "isArray": false
+            },
+            {
+                "name": "leaveStatus",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "username",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "fullName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "managerName",
+                "fieldType": 2,
+                "isArray": false
+            },
+            {
+                "name": "leaveReason",
+                "fieldType": 2,
+                "isArray": false
+            }
+        ]
+    }
+}

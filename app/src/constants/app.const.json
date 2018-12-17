@@ -1,0 +1,9 @@
+{
+    "dataSource": {
+        "user": "lms-rt",
+        "employee": "neutrinos-delivery-rt",
+        "staff": "neutrinos-delivery-rt",
+        "leaves": "neutrinos-delivery-rt",
+        "leaverequest": "neutrinos-delivery-rt"
+    }
+}

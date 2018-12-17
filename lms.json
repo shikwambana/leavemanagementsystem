@@ -1,0 +1,11 @@
+{
+    "artId": "",
+    "appName": "lms",
+    "description": "Leave Management System",
+    "lastModified": "2018-12-12T13:02:39.229Z",
+    "artURL": "http://localhost:3000/bhive-art/",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "dataSource": "neutrinos-delivery-rt",
+    "createDate": "2018-12-12T13:02:38.589Z"
+}

@@ -1,0 +1,47 @@
+{
+    "b1c5f4af-15fe-c86a-e713-ed634c0ef25c": {
+        "appPageName": "login",
+        "componentName": "loginComponent",
+        "isEntry": false
+    },
+    "c4581771-ca63-f41c-3097-bf95322621ac": {
+        "appPageName": "home",
+        "componentName": "homeComponent",
+        "isEntry": false
+    },
+    "dd3691d2-d623-8efe-ea01-b9543d360deb": {
+        "appPageName": "loader",
+        "componentName": "loaderComponent",
+        "isEntry": false
+    },
+    "6e0736cb-71c7-6bd0-4d1f-a50da0adcc82": {
+        "appPageName": "myapprovals",
+        "componentName": "myapprovalsComponent",
+        "isEntry": false
+    },
+    "b9b992d5-4942-c99d-bc34-baba238783e8": {
+        "appPageName": "userdetail",
+        "componentName": "userdetailComponent",
+        "isEntry": false
+    },
+    "743ea33c-33c8-7272-f01d-278e9786faa4": {
+        "appPageName": "applyleave",
+        "componentName": "applyleaveComponent",
+        "isEntry": false
+    },
+    "ddf92ba6-c069-e4db-3355-5657caed73e1": {
+        "appPageName": "userregistration",
+        "componentName": "userregistrationComponent",
+        "isEntry": false
+    },
+    "56ddada5-596d-2e59-fdfc-e44b844d9fde": {
+        "appPageName": "myleaves",
+        "componentName": "myleavesComponent",
+        "isEntry": false
+    },
+    "3e2081a0-2229-90d2-773b-91cf05571c3d": {
+        "appPageName": "myprofile",
+        "componentName": "myprofileComponent",
+        "isEntry": false
+    }
+}

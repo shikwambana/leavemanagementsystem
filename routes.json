@@ -1,0 +1,77 @@
+{
+    "routes": [
+        {
+            "path": "home",
+            "component": "homeComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "NAuthGuardService",
+            "data": "",
+            "canActivate": "",
+            "children": [
+                {
+                    "component": "myapprovalsComponent",
+                    "path": "myapprovals"
+                },
+                {
+                    "component": "userdetailComponent",
+                    "path": "userdetail",
+                    "children": []
+                },
+                {
+                    "path": "applyleave",
+                    "component": "applyleaveComponent",
+                    "resolve": "",
+                    "redirectTo": "",
+                    "canActivate": ""
+                },
+                {
+                    "path": "userregistration",
+                    "component": "userregistrationComponent",
+                    "children": []
+                },
+                {
+                    "path": "myleaves",
+                    "component": "myleavesComponent"
+                },
+                {
+                    "component": "myprofileComponent",
+                    "path": "myprofile"
+                }
+            ]
+        },
+        {
+            "path": "login",
+            "component": "loginComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        },
+        {
+            "path": "unauthorized",
+            "redirectTo": "/login",
+            "pathMatch": "full"
+        },
+        {
+            "path": "''",
+            "component": "",
+            "pathMatch": "full",
+            "redirectTo": "/home/applyleave",
+            "resolve": "",
+            "data": "",
+            "canActivate": "",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent",
+            "pathMatch": "",
+            "redirectTo": "",
+            "resolve": "",
+            "data": "",
+            "canActivate": ""
+        }
+    ]
+}
